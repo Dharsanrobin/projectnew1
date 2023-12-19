@@ -1,0 +1,221 @@
+
+#navi{
+    /* border: 1px solid black; */
+    height: 40px;
+    display: flex;
+    text-align: center;
+    line-height: 40px;
+    background-color: #333333;
+    position: sticky;
+    top: 0px;
+}
+.nav{
+    /* border: 1px solid black; */
+    width: 100px;
+    text-decoration: none;
+    font-size: medium;
+    color: white;
+}
+.nav:hover{
+    
+  font-size: x-large;
+}
+#page1_img1{
+    border: 1px solid black;
+    height: 100vh;
+    background-image: url("../images/project1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    padding: 0px 80px;
+}
+#container1{
+    /* border: 1px solid white; */
+    margin-top: 180px;
+    height: 50vh;
+}
+#img1-head2,#para1{
+    margin-top: 50px;
+}
+
+
+/* ---------------page2------------- */
+
+
+#page2{
+    border: 1px solid black;
+    height: 170vh;
+    background-color: #333333;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+#container2{
+    /* border: 1px solid white; */
+    height: 55vh;
+    margin: 30px 80px;
+}
+#head2,#para2,#para3{
+    margin-top: 30px;
+}
+#btn_1{
+    height: 50px;
+    width: 150px;
+    background-color: #B90415;
+    color: white;
+    border: none;
+    margin-top: 10px;
+}
+#btn_1:hover{
+    cursor: pointer;
+    background-color: hsl(0, 100%, 40%);
+}
+#para3{
+    font-size: medium;
+}
+#page2img1{
+    /* border: 1px solid white; */
+    height: 100vh;
+    margin-top: -5px;
+    background-image: url("../images/project2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+/* ----------page3------------ */
+
+#page3{
+    /* border: 1px solid black; */
+    height: 170vh;
+    text-align: center;
+    font-size: larger;
+}
+#container3{
+    /* border: 1px solid black; */
+    margin: 90px 100px;
+    height: 280px;
+}
+#con3_para{
+    margin-top: 40px;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+#p3b2{
+    height: 50px;
+    width: 100px;
+    background-color: #103063;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+#p3b2{
+    cursor: pointer;
+}
+
+
+#page3img1{
+    /* border: 1px solid black; */
+    height: 120vh;
+    margin-top: -70px;
+    background-image: url("../images/project3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+/* -------------page4------------ */
+#page4{
+    border: 1px solid black;
+    height: 80vh;
+    background-image: url("../images/project4.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
+    color: white;
+    text-align: center;
+}
+#container4{
+    /* border: 1px solid black; */
+    margin: 200px 100px;
+    height: 150px;
+}
+#con4_para{
+    font-size: large;
+    margin-top: 30px;
+    line-height: 30px;
+}
+#giftcard{
+    border: 1px solid black;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#page4a1{
+    color: black;
+    font-size: large;
+}
+#page4a1:hover{
+    color: #103063;
+}
+#cardimg{
+    background-image: url("../images/project5.png");
+    background-repeat: no-repeat;
+    background-size: 600px 400px;
+    background-position: center;
+}
+#img_content{
+    /* border: 1px solid black; */
+    height: 300px;
+    width: 600px;
+    margin-top: 70px;
+}
+#card_para1,#card_para2{
+    margin-top: 30px;
+    line-height: 25px;
+    font-size: large;
+}
+#foot{
+    /* border: 1px solid black; */
+    height: 350px;
+    display: grid;
+    grid-template-rows: 80% 20%;
+    row-gap: 15px;
+    color: white;
+    background-color: #252529;
+}
+#div_footer{
+    /* border: 1px solid black; */
+    height: 250px;
+    margin: 50px 130px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 50px;
+}
+ul{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 15% 10% 10% 10% 10% 10%;
+    font-size: larger;
+    list-style: none;
+}
+
+#footer2{
+    border: 1px solid black;
+    height: 60px;
+    background-color: #333333;
+    font-size: medium;
+    text-align: center;
+    line-height: 60px;
+}
+a{
+    text-decoration: none;
+    color: rgb(207, 207, 207);
+    font-size: small;
+    line-height: 50px;
+}
